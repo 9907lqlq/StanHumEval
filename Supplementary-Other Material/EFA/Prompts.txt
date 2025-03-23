@@ -1,0 +1,151 @@
+图像编号	英文提示词
+1	a little boy wearing headphones and looking at a computer monitor.
+2	A man standing over several bunches of green bananas.
+3	A woman on a motorcycle wearing a bag and passing a car.
+4	A cat is sleeping in a suitcase with folded clothing.
+5	A young man holding an umbrella next to a herd of cattle.
+6	Two young women are washing two motorcycles with hoses.
+7	A large white dog sits on a bench with people next to a path.
+8	An older couple sits on a bench near the lake with lilypads.
+9	Three horses on a green pasture with an old building in the background.
+10	Three cows are tied up in a barn and standing in the hay.
+11	A man leads two elephants down a trail.
+12	A large crowded town with a body of water and many boats.
+13	A small group of people standing around a ball patio.
+14	A child holding a large teddy bear wearing boots and clothing.
+15	A large brown dog resting its head on the side of a blue swimming pool.
+16	A church with a high spire and decorative roof tiles.
+17	Two birds sitting on wooden posts in water.
+18	Two ducks are swimming in the green colored pond.
+19	A young girl sitting on a saddle that is on a black horse, with other people standing next to the horse.
+20	There are many young children playing a soccer game together.
+21	A young girl swinging a tennis racket during a game.
+22	Young woman walking down the sidewalk with a cell phone.
+23	Two very metallic sinks are shown as well as the mirrors above them.
+24	Two young men standing in front of her while she has her foot on a skateboard.
+25	A little Asian girl holding a stuffed rabbit close to her face.
+26	A grey and white cat laying next to a laptop on a bed.
+27	A giraffe stands in an area with many tall trees.
+28	Several sheep grazing in a field of tall grass in front of a building.
+29	A person cutting up a small square pizza.
+30	Some people are having fun in the ocean on a sunny day.
+31	A blue commuter train traveling through a rural countryside.
+32	A brown cow standing next to a store with lots of water.
+33	A red and white tow truck tows a white car down the street.
+34	A scene of an apartment with a dining table and a couple of couches.
+35	A horse-drawn carriage is in front of an old large building.
+36	A woman with short brown hair getting ready to bite into a hot dog.
+37	A man wearing a colorful outfit and a hat made of bananas.
+38	A woman with a tie smoking a cigarette with a big smile.
+39	A herd of sheep travel down one side of the road and cars coming down the other side.
+40	Four men in a lake attempting to stand up on a board together, with their hands raised in the air, and one man in the water.
+41	a black and white cat a fence and some silver bowls.
+42	Person doing tricks on water skis on a nice day.
+43	A partial view of a refrigerator with a potted plant on top.
+44	A white bench on a cliff by the seashore on a sunny day.
+45	Fire truck full of Christmas decorations in a nighttime holiday parade.
+46	A small cute boy holding a cute stuffed animal.
+47	Benches are casting shadows onto the sidewalk as a man rides a bike in the background.
+48	A girl smiles as she holds a cat and wears a brightly colored skirt.
+49	A lone giraffe getting a drink of water from a small pond.
+50	Four young women are smiling at a computer monitor.
+51	little boy and father cooking to eat well.
+52	Happy little girl on the meadow.
+53	PSU students walk past a mural entitled 'Inspiration,' which depicts ex-coach Joe Paterno.
+54	Michelle Obama walks with Barack Obama.
+55	Birds above the Fog.
+56	Girl with milk shake — Foto de Stock
+57	Climbers on the summit of Island Peak.
+58	Water pressure meter installed on a red pipe.
+59	ladies diamond three row wedding ring.
+60	Linda Cardellini in Dead to Me.
+61	Woman In A Dress Framed Prints -Gabrielle in a Straw Hat Framed Print by Pierre Auguste Renoir.
+62	Playful African American Father and Son In Front Yard of Home.
+63	Cow and calf Royalty Freegraphy.
+64	The Pixies at Sydney Opera House.
+65	Terry will not play  after being sent off late on against Sunderland to potentially end his Chelsea career.
+66	stinjan-fort-monte-grosso-istria-prewedding-engagement-session-istria-wedding-photographer.
+67	The best bike touring routes in Taiwan for every skill level.
+68	Grunge floral background Royalty Free.
+69	bacopa and geraniums are best container plants.
+70	People, cosmetology, plastic surgery and beauty concept -beautiful young woman face and hand in glove with syringe making injection.
+71	Senior couple embracing each other in countryside photo
+72	Portrait of a beautiful young blond woman in grey coat, sunglasses, leather pants in an industrial background. Abandoned metal factory.
+73	Cream Siamese Kitten Greeting Card
+74	Brown leather.
+75	older man and woman enjoying dinner on a patio
+76	addresses stereotyping and teaches traditional dances in their Oct. 18 performance from 7-8 p.m. Set in the Onondaga Hall Bullpen, the council will teach two traditional dances-the Green Corn Dance and the Buffalo Dance. Additionally, the Redhawk artists will educate participants not only on the background of Native American traditions, but also on stereotyping. A nonprofit organization established and sustained by Native American artists and educators who reside in the New York City area, the Council is dedicated to educating the general public about Native American heritage through cultural expression. This includes song, dance, theatre, works of art and more.
+77	Star Cookie Cutter.
+78	A Piece of my heart has wing necklace.
+79	Christmas Tree Topper Star Happy Christmas Treetop Star Festival Decoration.
+80	Model side image of Cos bias-cut sleeveless top in red.
+81	Hepix canvas wall art abstract blue watercolor flowers for Third party wall notice.
+82	white Zara heels -black Finders Keepers dress -black armani bag.
+83	Art Prints of Heavenwards by Sophie Anderson
+84	romance in the camp fire -Couple with guitar by campfire
+85	Santa Claus Arrives in Beverly
+86	Converting from industrial to regenerative agriculture-White Oak Pastures
+87	rich baroque classic chandelier set luxury decor.
+88	Wall Scroll -Sailor Moon
+89	Rosanio Photography | Merrimack Valley Golf Course Simply Elegant Catering Methuen MA | Massachusetts Event and Christening Photographer_0004.jpg
+90	Young boy swimming under water in swimming pool, underwater view.
+91	Beth feeding her little sister, Emily.
+92	aerial view of road surrounded by trees.
+93	New York Fashion Week-Preen Fall 2009
+94	Stranger Things stars Charlie Heaton and Natalia Dyer were spotted holding hands in Paris earlier this fall which TBH is...
+95	blue Forever 21 coat -gray unknown scarf -pink Victorias Secret top -white Fo
+96	"HaAretz-""Thousands of Jews and Arabs March Together Against Racism and House Demolitions"""
+97	Cute little ballerina angry about the loud noise.
+98	Happy Chinese woman buying things online.
+99	Child swims in pool underwater, happy active girl dives and has fun under water, kid fitness and sport Stock Image.
+100	Happy family outside in a park on an old carousel.
+401	a happy little girls laying on a bed with a large group of teddy bears
+402	a tennis player that just hit the tennis ball back to the other opponent .
+403	a man and a woman standing their surf boards next to each other at the beach.
+404	a large crowd of people walking around while one owns a teddy bear.
+405	two men working in a kitchen with several rows of dishes
+406	five people holding a knife together and cutting a cake.
+407	a man working in a convenience store making hot dogs
+408	a young girl with a fork putting a large piece of cake in her mouth.
+409	two men in white coats are standing next to a cow.
+410	several people smiling at a party looking at a cake with lit candles.
+411	a group of people in business suits stand around and smile.
+412	a young girl sitting at a table making cookies.
+413	a little boy laying on a bed with a cute bedspread covered with boats
+414	people on a subway car and several of them wearing paper hats
+415	black and white photograph of a woman surrounded by pigeons on a city street
+416	a small girl sits at a table and eats lunch, consisting of noodles, fruit, milk and bread
+417	a teenager witting on a futon couch holding gaming controls in both hands.
+418	a family sitting together reading and brushing hair.
+419	a little toddler child learning to use a toothbrush.
+420	there is a man standing at a smart board giving a presentation
+421	a man wrangling some cows with a four wheeler.
+422	a man standing behind a woman who is cutting a cake at a table.
+423	a white and a spotted horse on a field of grass.
+424	a girl holding two baby bears while sitting on the floor.
+425	an attractive woman holding a badminton racket in a yard.
+426	Girls Superhero Fourth Birthday Party POPcorn.
+427	Physical Training Tips before Boot Camp.
+428	A Spain supporter cheers for his team ahead of the Euro 2012 soccer championship final match between  Spain and Italy in Kiev, Ukraine, Sunday, July 1, 2012. 
+429	eDressit Purple Simple One-Shoulder Floor-Length Dress.
+430	Beautiful young woman chatting on her mobile phone in her kitchen photo.
+431	Toowoomba principal named boss of new prestigious school.
+432	steampunk clothing.
+433	Catherine Deneuve and Francoise Dorleac in Les Demoiselles de Rochefort, 1967.
+434	"J.W. Waterhouse ""Saint Cécila"" 1895. The two winged musicians are thought to be modelled by Muriel Foster."
+435	Father holding son by hospital bed by Seattle Birth Photographer.
+436	Ballerina in white dress dancing in ballet class Canvas Print.
+437	Mature woman opening door with electronic key photo.
+438	Polar bear laying down.
+439	lilac zara dress, blue fur coat, DC blogger, tweed dress, tory burch pom pom mules, street style, drum bag, purple satin bag, barrel bag, myriad musings, saumya shiohare.
+440	Many pelicans on the beach of San Remo, Australia.
+441	Guests chatting on a couch at a Florida bridal shower.
+442	Family Fun Embroidered Grill Apron.
+443	Yellow-rumped warbler (Setophaga coronata) male hunting at the edge of a lake during migration, Iowa, USA Canvas-taulu.
+444	malay muslim family having fun in the park photo.
+445	Image may contain Animal Canine Mammal Pet Dog Pug and Blanket.
+446	Pink Halter Tulle Flower Girl Dresses With Handmade Flower,Cheap Toddler Flower Girl Dresses,FGY0196.
+447	Painting -Bagpipers by Jill Ciccone Pike.
+448	Fit woman hugging a tree.
+449	Foto Stock-Friends at the beach with thumbs up.
+450	Alternative tire swing.
