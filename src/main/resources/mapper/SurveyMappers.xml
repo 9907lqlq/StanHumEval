@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的 -->
+<mapper namespace="com.ping.system.mapper.SurveyMapper">
+    <resultMap id="surveyMap" type="com.ping.system.entity.Survey">
+        <result column="survey_id" property="surveyId"></result>
+        <result column="survey_name" property="surveyName"></result>
+        <result column="username"  property="username"></result>
+        <result column="survey_time"  property="surveyTime"></result>
+    </resultMap>
+
+    <select id="findAllSurvey" resultMap="surveyMap">
+        select * from survey
+    </select>
+
+    <select id="findById" resultMap="surveyMap">
+        select * from survey where survey_id = #{survey_id}
+    </select>
+
+    <insert id="insertSurvey" parameterType="com.ping.system.entity.Survey">
+        insert into survey(survey_name,username,survey_time) values(#{surveyName},#{username},now())
+    </insert>
+
+    <update id="updateSurvey">
+        update survey
+        <set>
+            <if test="surveyName != null">
+                survey_name = #{surveyName},
+            </if>
+            <if test="surveyDescribe != null">
+                survey_describe = #{surveyDescribe}
+            </if>
+        </set>
+        <where>
+            survey_id = #{surveyId}
+        </where>
+    </update>
+
+    <delete id="deleteSurvey" parameterType="int">
+        delete from survey where survey_id = #{survey_id}
+    </delete>
+
+    <select id="findSurveyByPage" resultMap="surveyMap">
+        select * from survey order by survey_name*1 limit #{pageNum}, #{pageSize}
+    </select>
+</mapper>

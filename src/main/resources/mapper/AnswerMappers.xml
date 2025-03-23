@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 为这个mapper指定一个唯一的namespace，namespace的值习惯上设置成包名+sql映射文件名，这样就能够保证namespace的值是唯一的 -->
+<mapper namespace="com.ping.system.mapper.AnswerMapper">
+    <resultMap id="answerMap" type="com.ping.system.entity.AnswerDto">
+        <result column="diff" property="diff"></result>
+        <result column="answer_id" property="answerId"></result>
+        <result column="answer_begintime" property="answerBeginTime"></result>
+        <result column="answer_time" property="answerTime"></result>
+        <result column="answer_user" property="answerUser"></result>
+        <result column="survey_name" property="surveyName"></result>
+        <result column="hostAddress" property="hostAddress"></result>
+        <result column="hostName" property="hostName"></result>
+        <result column="answer_1" property="answer1"></result>
+        <result column="answer_2" property="answer2"></result>
+        <result column="answer_3" property="answer3"></result>
+        <result column="answer_4" property="answer4"></result>
+        <result column="answer_5" property="answer5"></result>
+        <result column="answer_6" property="answer6"></result>
+        <result column="answer_7" property="answer7"></result>
+        <result column="answer_8" property="answer8"></result>
+        <result column="answer_9" property="answer9"></result>
+        <result column="answer_10" property="answer10"></result>
+        <result column="answer_11" property="answer11"></result>
+        <result column="answer_12" property="answer12"></result>
+        <result column="answer_13" property="answer13"></result>
+        <result column="answer_14" property="answer14"></result>
+        <result column="answer_15" property="answer15"></result>
+        <result column="answer_16" property="answer16"></result>
+        <result column="answer_17" property="answer17"></result>
+        <result column="answer_18" property="answer18"></result>
+        <result column="answer_19" property="answer19"></result>
+        <result column="answer_20" property="answer20"></result>
+        <result column="answer_21" property="answer21"></result>
+        <result column="answer_22" property="answer22"></result>
+        <result column="answer_23" property="answer23"></result>
+        <result column="answer_24" property="answer24"></result>
+        <result column="answer_25" property="answer25"></result>
+        <result column="answer_26" property="answer26"></result>
+        <result column="answer_27" property="answer27"></result>
+        <result column="answer_28" property="answer28"></result>
+        <result column="answer_29" property="answer29"></result>
+        <result column="answer_30" property="answer30"></result>
+        <result column="answer_31" property="answer31"></result>
+        <result column="answer_32" property="answer32"></result>
+        <result column="answer_33" property="answer33"></result>
+        <result column="answer_34" property="answer34"></result>
+        <result column="answer_35" property="answer35"></result>
+        <result column="answer_36" property="answer36"></result>
+        <result column="answer_37" property="answer37"></result>
+        <result column="answer_38" property="answer38"></result>
+        <result column="answer_39" property="answer39"></result>
+        <result column="answer_40" property="answer40"></result>
+        <result column="answer_41" property="answer41"></result>
+        <result column="answer_42" property="answer42"></result>
+        <result column="answer_43" property="answer43"></result>
+        <result column="answer_44" property="answer44"></result>
+        <result column="answer_45" property="answer45"></result>
+        <result column="answer_46" property="answer46"></result>
+        <result column="answer_47" property="answer47"></result>
+        <result column="answer_48" property="answer48"></result>
+        <result column="answer_49" property="answer49"></result>
+        <result column="answer_50" property="answer50"></result>
+        <result column="answer_51" property="answer51"></result>
+        <result column="answer_52" property="answer52"></result>
+        <result column="answer_53" property="answer53"></result>
+        <result column="answer_54" property="answer54"></result>
+        <result column="answer_55" property="answer55"></result>
+        <result column="answer_56" property="answer56"></result>
+        <result column="answer_57" property="answer57"></result>
+        <result column="answer_58" property="answer58"></result>
+        <result column="answer_59" property="answer59"></result>
+        <result column="answer_60" property="answer60"></result>
+    </resultMap>
+
+<!--    <insert id="insertAnswer" parameterType="com.ping.system.entity.Answer">-->
+<!--        insert into answer(answer_time,answer_user,answer_1,answer_2,answer_3,answer_4,answer_5,answer_6,answer_7,answer_8)-->
+<!--        values(now(),#{answerUser},#{answer1},#{answer2},#{answer3},#{answer4},#{answer5},#{answer6},#{answer7},#{answer8})-->
+<!--    </insert>-->
+    <select id="selectTotal" resultType="java.lang.Integer">
+        select count(*) from answer
+        <where>
+            <if test="answerUser != null and answerUser !='' ">
+                answer_user LIKE CONCAT('%',#{answerUser},'%')
+            </if>
+        </where>
+    </select>
+
+    <select id="findAll" resultMap="answerMap">
+        select * from answer
+    </select>
+
+    <select id="findReport1" resultMap="answerMap">
+        select *,TIMESTAMPDIFF(SECOND, answer_begintime, answer_time) as diff from answer where survey_name &lt; 301 and survey_name &gt; 0 order by answer_begintime
+    </select>
+
+    <select id="findReport2" resultMap="answerMap">
+        select *,TIMESTAMPDIFF(SECOND, answer_begintime, answer_time) as diff from answer where survey_name &lt; 601 and survey_name &gt; 300 order by answer_begintime
+    </select>
+
+    <select id="findReport3" resultMap="answerMap">
+        select *,TIMESTAMPDIFF(SECOND, answer_begintime, answer_time) as diff from answer where survey_name &gt; 600 and survey_name order by answer_begintime
+    </select>
+
+    <select id="findAllReport" resultMap="answerMap">
+        select *,TIMESTAMPDIFF(SECOND, answer_begintime, answer_time) as diff from answer where answer_time is not null order by answer_begintime
+    </select>
+
+    <select id="selectAnswerByNameAndSurvey" resultMap="answerMap">
+        select * from answer where answer_user = #{username} and survey_name = #{surveyName}
+    </select>
+
+    <select id="findByPage" resultMap="answerMap">
+        select * from answer
+        <where>
+            <if test="answerUser != null and answerUser !='' ">
+                answer_user LIKE CONCAT('%',#{answerUser},'%')
+            </if>
+        </where>
+        limit #{pageNum}, #{pageSize}
+    </select>
+
+    <update id="insertAnswer">
+        update answer
+        <set>
+            <if test="answer1 != null">
+                answer_1 = #{answer1},
+            </if>
+            <if test="answer2 != null">
+                answer_2 = #{answer2},
+            </if>
+            <if test="answer3 != null">
+                answer_3 = #{answer3},
+            </if>
+            <if test="answer4 != null">
+                answer_4 = #{answer4},
+            </if>
+            <if test="answer5 != null">
+                answer_5 = #{answer5},
+            </if>
+            <if test="answer6 != null">
+                answer_6 = #{answer6},
+            </if>
+            <if test="answer7 != null">
+                answer_7 = #{answer7},
+            </if>
+            <if test="answer8 != null">
+                answer_8 = #{answer8},
+            </if>
+            <if test="answer9 != null">
+                answer_9 = #{answer9},
+            </if>
+            <if test="answer10 != null">
+                answer_10 = #{answer10},
+            </if>
+            <if test="answer11 != null">
+                answer_11 = #{answer11},
+            </if>
+            <if test="answer12 != null">
+                answer_12 = #{answer12},
+            </if>
+            <if test="answer13 != null">
+                answer_13 = #{answer13},
+            </if>
+            <if test="answer14 != null">
+                answer_14 = #{answer14},
+            </if>
+            <if test="answer15 != null">
+                answer_15 = #{answer15},
+            </if>
+            <if test="answer16 != null">
+                answer_16 = #{answer16},
+            </if>
+            <if test="answer17 != null">
+                answer_17 = #{answer17},
+            </if>
+            <if test="answer18 != null">
+                answer_18 = #{answer18},
+            </if>
+            <if test="answer19 != null">
+                answer_19 = #{answer19},
+            </if>
+            <if test="answer20 != null">
+                answer_20 = #{answer20},
+            </if>
+            <if test="answer21 != null">
+                answer_21 = #{answer21},
+            </if>
+            <if test="answer22 != null">
+                answer_22 = #{answer22},
+            </if>
+            <if test="answer23 != null">
+                answer_23 = #{answer23},
+            </if>
+            <if test="answer24 != null">
+                answer_24 = #{answer24},
+            </if>
+            <if test="answer25 != null">
+                answer_25 = #{answer25},
+            </if>
+            <if test="answer26 != null">
+                answer_26 = #{answer26},
+            </if>
+            <if test="answer27 != null">
+                answer_27 = #{answer27},
+            </if>
+            <if test="answer28 != null">
+                answer_28 = #{answer28},
+            </if>
+            <if test="answer29 != null">
+                answer_29 = #{answer29},
+            </if>
+            <if test="answer30 != null">
+                answer_30 = #{answer30},
+            </if>
+            <if test="answer31 != null">
+                answer_31 = #{answer31},
+            </if>
+            <if test="answer32 != null">
+                answer_32 = #{answer32},
+            </if>
+            <if test="answer33 != null">
+                answer_33 = #{answer33},
+            </if>
+            <if test="answer34 != null">
+                answer_34 = #{answer34},
+            </if>
+            <if test="answer35 != null">
+                answer_35 = #{answer35},
+            </if>
+            <if test="answer36 != null">
+                answer_36 = #{answer36},
+            </if>
+            <if test="answer37 != null">
+                answer_37 = #{answer37},
+            </if>
+            <if test="answer38 != null">
+                answer_38 = #{answer38},
+            </if>
+            <if test="answer39 != null">
+                answer_39 = #{answer39},
+            </if>
+            <if test="answer40 != null">
+                answer_40 = #{answer40},
+            </if>
+            <if test="answer41 != null">
+                answer_41 = #{answer41},
+            </if>
+            <if test="answer42 != null">
+                answer_42 = #{answer42},
+            </if>
+            <if test="answer43 != null">
+                answer_43 = #{answer43},
+            </if>
+            <if test="answer44 != null">
+                answer_44 = #{answer44},
+            </if>
+            <if test="answer45 != null">
+                answer_45 = #{answer45},
+            </if>
+            <if test="answer46 != null">
+                answer_46 = #{answer46},
+            </if>
+            <if test="answer47 != null">
+                answer_47 = #{answer47},
+            </if>
+            <if test="answer48 != null">
+                answer_48 = #{answer48},
+            </if>
+            <if test="answer49 != null">
+                answer_49 = #{answer49},
+            </if>
+            <if test="answer50 != null">
+                answer_50 = #{answer50},
+            </if>
+            <if test="answer51 != null">
+                answer_51 = #{answer51},
+            </if>
+            <if test="answer52 != null">
+                answer_52 = #{answer52},
+            </if>
+            <if test="answer53 != null">
+                answer_53 = #{answer53},
+            </if>
+            <if test="answer54 != null">
+                answer_54 = #{answer54},
+            </if>
+            <if test="answer55 != null">
+                answer_55 = #{answer55},
+            </if>
+            <if test="answer56 != null">
+                answer_56 = #{answer56},
+            </if>
+            <if test="answer57 != null">
+                answer_57 = #{answer57},
+            </if>
+            <if test="answer58 != null">
+                answer_58 = #{answer58},
+            </if>
+            <if test="answer59 != null">
+                answer_59 = #{answer59},
+            </if>
+            <if test="answer60 != null">
+                answer_60 = #{answer60},
+            </if>
+            answer_time = now()
+        </set>
+        <where>
+            answer_user = #{answerUser} and survey_name = #{surveyName}
+        </where>
+    </update>
+
+<!--    <insert id="insertAnswer" parameterType="com.ping.system.entity.Answer">-->
+<!--        update set answer(answer_time,answer_1,answer_2,answer_3,answer_4,answer_5,answer_6,answer_7,answer_8,answer_9,answer_10,answer_11,answer_12,answer_13,answer_14,answer_15,answer_16,answer_17,answer_18,answer_19,answer_20,answer_21,answer_22,answer_23,answer_24,answer_25,answer_26,answer_27,answer_28)-->
+<!--        values(now(),#{answer1},#{answer2},#{answer3},#{answer4},#{answer5},#{answer6},#{answer7},#{answer8},#{answer9},#{answer10},#{answer11},#{answer12},#{answer13},#{answer14},#{answer15},#{answer16},#{answer17},#{answer18},#{answer19},#{answer20},#{answer21},#{answer22},#{answer23},#{answer24},#{answer25},#{answer26},#{answer27},#{answer28})-->
+<!--        where answer_user = #{answerUser} and survey_name = #{surveyName}-->
+<!--    </insert>-->
+
+    <insert id="insertAnswerUsername">
+        insert into answer(answer_begintime,answer_user,survey_name,hostAddress,hostName) values(now(),#{username},#{surveyName},#{hostAddress},#{hostName})
+    </insert>
+</mapper>

@@ -1,0 +1,22 @@
+# 端口配置
+server:
+  port: 9090
+
+# 数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/question?setUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123456
+    #password: 123456
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://gz-cynosdbmysql-grp-3bfbdbx3.sql.tencentcdb.com:23067/question?setUnicode=true&characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+#    username: root
+#    password: 497680396pP
+#mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.ping.system.entity
