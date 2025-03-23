@@ -1,0 +1,141 @@
+ID	Prompts	Attributes	States	Entity Relationships	Visual Effects
+1	Man rides on the back of a wooden cart being pulled by two cows.	1	1	1	0
+2	A zoo keeper looking at the back of a caged elephant.	0	1	1	0
+3	A cat sitting amongst books and clothing in a suitcase.	0	1	1	0
+4	A large cat sits on the sofa arm next to a girl using a computer.	1	1	1	0
+5	Three people skateboarding with cement and a large crowd.	1	1	1	0
+6	Four men standing against a brick wall with one of them eating from a food container, one with several carrots stuffed into his mouth, and the other two standing next to them.	1	1	1	1
+7	A big bunch of skiers in a very big snowy field.	1	0	1	1
+8	Two small horses standing in a field covered with grass.	1	1	1	1
+9	Two young woman in a park doing tricks with a frisbee.	1	1	1	1
+10	The young man is sitting in his car with his pet dog and studying from a textbook.	1	1	1	1
+11	Four stuffed teddy bears dressed in pink and posed together.	1	1	0	0
+12	Apples inside a blue container and a cardboard box of bananas.	1	0	1	0
+13	A lighthouse stands on an island in the background as a surfer on an orange board rides the surf while holding a black pole.	1	1	1	1
+14	Two people stand outside of a very old building.	1	1	1	1
+15	a closeup of a computer keyboard and mouse with workers in the background.	0	0	1	1
+16	A close up of several people with one holding an umbrella.	0	1	1	1
+17	Two horses standing in an open field on a sunny day.	1	1	1	1
+18	A young boy is making a silly face while staring at a whole pizza.	1	1	0	0
+19	The tennis player is confident about the difficult shot.	0	1	0	0
+20	a cobblestone street has busy sidewalks full of people with umbrellas	1	0	1	1
+21	a man wearing a lei seated in a room full of people	1	1	1	0
+22	an older man is inspecting some bananas at an outdoor market.	1	1	0	1
+23	a woman is sitting at a table with a person pouring a bottle of wine into a wine glass.	0	1	1	0
+24	a man and woman sitting by a wooden table with champagne and cake.	1	1	1	0
+25	three people seated at a round wooden table with food.	1	1	1	0
+26	a man drinking from a glass while sitting in front of a table full of food	1	1	1	0
+27	a man standing in front of a mirror adjusting his tie	0	1	1	0
+28	two men stand in a kitchen with wooden cabinets.	1	1	1	1
+29	A uniformed boy is holding a basketball with his back to the hoop.	1	1	1	0
+30	A beach patrol jeep drives along the sand as people wade and fly kites down the beach.	1	1	1	1
+31	Small girl holding a recorder near a table with an unfinished drawing.	1	1	1	0
+32	A cat standing on a table in front of a TV.	0	1	1	0
+33	A cat sitting on a blanket next to a laptop.	1	1	1	0
+34	A little boy stands by a stack of suitcases.	1	1	1	0
+35	Two giraffes stand behind a fence in a zoo enclosure.	0	1	1	0
+36	Two images: A woman and a cat at a window and a highway with a construction sign.	0	0	0	1
+37	These three birds are walking along the beach looking for food.	0	1	1	1
+38	A large elephant walking behind a car on a dirt road.	1	1	1	1
+39	A young girl sitting on the sidewalk using her phone.	1	1	1	1
+40	A young man holding a tennis racquet on a court.	1	1	1	1
+41	A field with three cows grazing in the background.	1	1	1	1
+42	Multiple men looking at a stack of luggage at an airport.	0	1	1	1
+43	Two horses running inside a grassy fenced pasture.	0	1	1	1
+44	A group of people walking horses through a field.	0	1	1	1
+45	Several birds walk across the shore as the sun sets.	0	0	1	1
+46	Two children are sitting and one appears to be in pain.	1	1	1	0
+47	Two smiling men prepare hot dog rolls in a kitchen.	0	1	1	1
+48	a young man who is sitting on top of very large elephant.	1	1	1	0
+49	a woman getting ready to hit a tennis ball with a racket while a group of people watch from the stands.	1	1	1	1
+50	a large group of birds are standing in the parking lot in empty spaces near cars.	0	1	1	0
+51	a bronze statue of a woman and children with luggage.	1	0	1	0
+52	a gray and white cat leaning up against a small tv.	1	1	1	0
+53	a girl holding her brow and her tennis racquet as she takes a break.	0	1	1	0
+54	altered photograph of young women on cell phones sitting on city buildings	1	1	1	0
+55	a salvation army truck with people standing around the vehicle and getting beverages from the truck.	0	1	1	0
+56	a big clock hangs above a platform that two people are walking on.	0	0	1	0
+57	a blurry picture of people walking on the street in the rain with their umbrellas.	0	1	1	1
+58	a bunch of people are standing around watching a woman cut a piece of cake and there are a bunch of coffee cups and saucers on the table.	1	1	1	0
+59	a man that is sailing honey-roasted nuts and people walking down the street with their umbrellas in the rain.	0	0	0	1
+60	a man is holding a colorful umbrella open while another person sticks his feet into it.	1	1	1	0
+61	an elderly man and woman sit on a bench on a busy sidewalk.	1	1	1	1
+62	a large number of people walk along all sides of a busy street.	0	0	1	1
+63	A cat sitting on a scooter parked below a window.	0	1	1	0
+64	A lonely leashed dog sits beside a bench.	1	1	1	0
+65	Two ladies seated with cups of drinks, one smoking while the other seated inside a fridge.	1	1	1	0
+66	Two giraffes looking at each other from two separate rooms.	1	1	1	1
+67	A woman with skis and two tan dogs standing in the snow looking at the camera.	1	1	1	1
+68	Two birds sitting on the back of a giraffe.	0	1	1	0
+69	a cat sits on the seat of a bicycle and looks down at another cat on a snowy day.	0	1	1	1
+70	a cat sits on a bench near a flower pot shaped like a turtle.	1	1	1	0
+71	Walking man in black leather jacket and black jeans. Full length studio shot isolated on white.	1	1	0	1
+72	Festive couple in front of Christmas tree.	0	1	1	0
+73	So Cute For Baby Gifts Tie A Ribbon Around The Gift And Attach Some Socks With Clothespins Voila.	1	0	1	0
+74	High Angle View Of Potatoes On Barbecue Grill.	1	0	1	1
+75	Wilfried Peeters pushes a cheeky young fan dressed in the World Champion's colours, during the 1991 Tour de France.	1	1	0	0
+76	Puppeteer with clown puppet in red clothes. Raster illustration in flat cartoon style.	1	0	0	1
+77	A photo of Ira Glass smiling and looking into the distance. There is a microphone in front of him.	0	1	1	1
+78	Black forest cake and flowers.	1	0	0	0
+79	Happy two age generations active family dancing in living room, carefree old senior adult grandfather and cute preschool grandson having fun listening to music jumping enjoying time together at home.	1	1	0	1
+80	Female athlete running and jumping. Side view shot of healthy african woman working out against red background.	1	1	1	1
+81	Beautiful young girl with violin, isolated on white.	1	1	0	1
+82	pointing man with sad ecological paper bag on head, full length.	1	1	0	0
+83	Choir at Winchester Cathedral in 2017.	0	0	1	0
+84	Women taking bath on irrawaddy river banks, Myanmar.	1	1	0	1
+85	Young brunette business woman has pain neck behind computer.	1	0	0	0
+86	Top 5 Kickass Pilates Moves.	0	1	0	0
+87	Kowalski is thinking about King Julien.	0	1	0	0
+88	Buy stock photo Shot of a carefree young woman seated on the floor while listening to music through her earphones outside during the day.	1	1	1	1
+89	Top and skirt Light yellow.	1	0	0	0
+90	woman paints wall with brush at home photo.	1	1	1	1
+91	Harlan County Women's Chair Lindsey Boggs and Young Farmer Chair Nathan Boggs teach 5th graders.	1	1	0	0
+92	Young potter spinning clay on the potter's wheel.	1	1	1	0
+93	Girl brushing her teeth.	1	1	0	0
+94	Photos of Anna Paquin With her Dogs.	1	0	0	0
+95	Side Plank with Arm Extension.	0	1	0	0
+96	Young couple driving car.	1	1	0	0
+97	Lifestyle-Melissa Hagedorn doing yoga below the Henry Mountains at sunset, Cainville, Utah.	0	1	0	1
+98	Falside, Chesters, Hawick, Scotland, UK. 17th January 2016. Suffolk cross ewes are scanned for lambs in order to forecast the birth rate for the forthcoming lambing season at a farm in the Scottish Borders.	0	1	0	1
+99	ROW-The European Rowing Championships Royalty Freegraphy.	0	0	0	1
+100	Motocross bikes racing in track.	1	1	0	1
+101	Kid Art -Girl with Dogs by Charles Burton Barber.	1	0	0	1
+102	Shock and awe-A bride's jaw dropped upon seeing Adam Levine on stage at her wedding.	1	1	1	0
+103	She as cute as can be.	1	0	0	1
+104	Group of flamingos (phoenicopterus) eating on the ground.	1	1	1	0
+105	How lions returned to one of the harshest deserts in the world.	1	0	0	1
+106	On Wednesday, Sept. 27, Brocton Elementary School celebrated its character education assembly. Sixteen students were chosen as Students of the Month representing grades Kindergarten through 5. These students demonstrated the character trait of Responsibility on a daily basis. The following students were chosen as Students of the Month for Septembe.	1	0	0	0
+107	Active athletic dog puppy running at the sea.	1	1	0	1
+108	Big group of employees in red, white, and blue raise their arms in celebration.	1	1	1	0
+109	African Elephant in the Maasai Mara National Reserve, Kenya, Africa.	1	0	0	1
+110	Send a message to protect the gray wolf!	0	1	0	0
+111	foto of adolescence -Happy young beautiful woman with retro bicycle.	1	1	0	1
+112	Embroidery Lace Chiffon Blouse Red Shirt Women.	1	0	0	0
+113	Photo for happy beautiful girl in white t-shirt showing idea gesture and looking away isolated on grey, panoramic shot.	1	1	1	1
+114	Regardless of the outcome of the 2012 election, Joseph says India looks at the U.S. two-party system with envy. Hundreds of candidates from dozens of parties campaign, and their supporters ride through cities on motorbikes to lobby voters.	0	1	0	0
+115	Backstage Calvin Klein Collection Fall Winter 2015 Menswear.	1	0	0	0
+116	a wild male blue-eyed darner rhionaeschna multicolor perches on a bush along a canal off jean leblanc road near bishop inyo county california united states.	1	0	1	1
+117	Three-toed Sloth scratching, Panama -Sloth.	1	1	1	0
+118	Competitive-The catty female behaviour, as displayed in 2004 film Mean Girls, is down to the lack of good men, a gender expert argues.	1	0	0	0
+119	BeX live with her Band at The Bedford.	0	1	1	0
+120	Mastiff/Great Dane Mix Dog for adoption in Fredericksburg, Virginia -Spotsylvania Shelter.	1	1	0	0
+121	jungle gym-Young boy playing at a park.	1	1	0	1
+122	Forest Elephant and Buffalo.	1	0	0	1
+123	BOSTON, MA -AUGUST 18-Rafael Devers #11 of the Boston Red Sox high fives teammates after hitting a two run home run during the second inning of a game against the New York Yankees on August 18, 2017 at Fenway Park in Boston, Massachusetts.	0	1	0	0
+124	A woman looks off into the distance with a big smile on her face. Her long brown hair flows around her, and she wears a white tank top with thick straps. Only her shoulders and face are visible.	1	1	0	1
+125	A Girl and Her Horse, Sunset Beach, North Shore of Oahu.	1	0	0	1
+126	Juvenile Great Horned Owl.	1	0	0	0
+127	A resident runs past a collapsed roof of a petrol station after Typhoon Haima struck San Nicolas.	1	1	0	1
+128	sunset yoga on the beach.	0	1	0	1
+129	Mixed race senior and young adult family members talking in the kitchen while preparing Christmas dinner together, close up Stockfoto.	1	1	1	1
+130	Rosanio Photography | Benson Park, New Hampshire Maternity Photographer.	1	0	0	1
+131	Flock of American Avocets at Swallows Park in Clarkston, Washington.	1	0	1	1
+132	Young beautiful girl on a bicycle with two men in the background Royalty Free Stock Image.	1	1	1	1
+133	DAY CARE FINGER PAINT COOKING.	0	1	0	0
+134	A student plays violin.	0	1	0	0
+135	Supporters of Kyrgyzstan's first female hockey team cheer during a training match in the village of Otradnoye, Kyrgyzstan on February 4, 2020. 	0	1	0	1
+136	Kimball Stock Common Buzzard Flying In Germany.	1	1	0	1
+137	Ryan Pretend Play and Learn Colors with Giant Crayons Egg Surprise Toys!	0	1	0	0
+138	Happy children with balloons — Stock fotografie.	0	1	1	0
+139	Girl eating soup.	0	1	0	0
+140	Holiday Dog Tutu  -Green and Red	1	0	0	1
